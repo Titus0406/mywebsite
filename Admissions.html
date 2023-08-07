@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Dr. Aggrey High School</title>
+    <link rel="stylesheet" href="Admissions.css" type="text/css">
+</head>
+    <header>
+    <nav>
+         <!-- Navigation -->
+     <div class="navbar">
+        <a href="HOMEPAGE.html">HOME</a>
+        <a href="Admissions.html">ADMISSIONS</a>
+        <a href="About.html">ABOUT US</a>
+        <a href="Students.html">STUDENTS</a>
+        <a href="News.html">NEWS</a>
+        <a href="Vacancies.html">VACANCIES</a>
+        <a href="Curriculum.html">CURRICULUM</a>
+        <a href="Contact.html">CONTACT</a>
+    </div>
+</nav>
+    </header>
+    <body>
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>We are excited to welcome new students to Dr. Aggrey High School School!</p>
+            <h2>Admissions Process</h2>
+            <p>Follow these steps to apply for admission:</p>
+            <ol>
+                <li>Complete the online application form below.</li>
+                <li>Submit required documents, including transcripts and recommendation letters.</li>
+                <li>Attend an admissions interview.</li>
+                <li>Receive an admissions decision.</li>
+            </ol>
+            <h2>Admissions Application Form</h2>
+            <form action="submit_application.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="eg. Titus" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="eg. ronyotieno@gmail.com" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="eg. 0768949273">
+                
+                <label for="grade">Grade Level Applying For:</label>
+                <select id="grade" name="grade">
+                    <option value="grade4">Form 4</option>
+                    <option value="grade3">Form 3</option>
+                    <option value="grade2">Form 2</option>
+                    <option value="grade1">Form 1</option>
+                    <!-- form 1-4 option menu -->
+                </select>
+                
+                <label for="documents">Upload Required Documents:</label>
+                <input type="file" id="documents" name="documents" multiple>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+            </div>
+
+        </body>
+       
+<footer>
+    <div class="footer">
+    <div class="social-icons">
+        <a href="https://web.facebook.com/groups/151860755199703/" target="_blank"><img src="ZFB.png" alt="Facebook"></a>
+        <a href="https://twitter.com/TaitaForum" target="_draggrey"><img src="ZTWEETER.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/dr.aggrey_gallery/#" target="_blank"><img src="ZINSTA.webp" alt="Instagram"></a>
+    </div>
+
+    <p>&copy; 2023 Dr Aggrey High School. All rights reserved.</p>
+</div>
+</footer>
+    </html>
+    
+   

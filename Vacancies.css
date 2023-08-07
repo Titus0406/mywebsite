@@ -1,0 +1,45 @@
+
+/* Navigation */
+.navbar {
+    background-color: #0058a3;
+    overflow: hidden;
+    font-weight: bolder;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;}
+
+/* Hero Section */
+.hero {
+    background-image: url('zvac.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
